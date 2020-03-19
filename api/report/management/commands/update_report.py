@@ -57,6 +57,6 @@ class Command(BaseCommand):
         print('Cron started! Wait the job starts!')
 
         scheduler = BlockingScheduler()
-        scheduler.add_job(cron, 'cron', minutes=20, timezone='America/Maceio')
+        scheduler.add_job(cron, 'interval', minutes=20, timezone='America/Maceio')
 
         scheduler.start()
