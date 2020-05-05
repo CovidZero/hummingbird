@@ -1,3 +1,4 @@
+# CÓDIGO FORA DE UTILIZAÇÃO
 # hummingbird-covidzero
 
 Essa é uma aplicação criada para fornecer APIs de consulta de dados sobre
